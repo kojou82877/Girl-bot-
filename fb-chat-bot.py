@@ -1,6 +1,5 @@
 from fbchat import Client, log, _graphql
 from fbchat.models import *
-from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 import json
 import random
