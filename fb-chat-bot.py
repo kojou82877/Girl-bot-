@@ -474,8 +474,6 @@ class ChatBot(Client):
                     pass
             if ("busy" in msg):
                 print("why everyone is busy")
-                else:
-                    print("i'm sleepy sleppy")
           
             elif("help" in msg):
                 reply = "Sure! What should I do?"
