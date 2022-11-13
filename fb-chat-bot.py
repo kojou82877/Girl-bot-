@@ -472,9 +472,11 @@ class ChatBot(Client):
                     sendQuery()
                 except:
                     pass
-            elif ("busy" in msg):
-                reply = "Nobody is busy. Only things are prioritized."
-                sendMsg()
+            if ("busy" in msg):
+                print("why everyone is busy")
+                else:
+                    print("i'm sleepy sleppy")
+          
             elif("help" in msg):
                 reply = "Sure! What should I do?"
                 sendMsg()
