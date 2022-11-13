@@ -1,5 +1,5 @@
 from fbchat import Client, log, _graphql
-from fbchat.models import *
+from fbchat import models  *
 import json
 import random
 import wolframalpha
