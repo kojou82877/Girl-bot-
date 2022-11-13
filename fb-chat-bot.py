@@ -473,7 +473,7 @@ class ChatBot(Client):
                 except:
                     pass
             if ("busy" in msg):
-                print("why everyone is busy")
+                reply = print("why everyone is busy")
                 sendMsg()
           
             elif("help" in msg):
