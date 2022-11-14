@@ -473,7 +473,7 @@ class ChatBot(Client):
                 except:
                     pass
             if ("busy burr" in msg or "burr" in msg or "chut" in msg or "xhut" in msg or "jhante" in msg or "gand" in msg or "loli" in msg or "bhoxda" in msg):
-                reply = ("why everyone's burr is busy" and "lol")
+                reply = ("why everyone's burr is busy" or "lol")
                 sendMsg()
           
             elif("help" in msg):
